@@ -8,13 +8,13 @@ const NavBar = () => {
     setIsOpen(!isOpen);
   };
     return (
-        <nav className="bg-gray-800 p-1">
+        <nav className="bg-gray-800 p-1  ">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
               <div className="flex items-center">
                 <div>
                   
-                    <h1 className="text-white text-lg font-semibold">Asaduzzaman Likhon &copy;</h1>
+                    <h1 className="text-white text-lg font-semibold w-full">Asaduzzaman <span className="font-medium">Likhon</span></h1>
                 </div>
                 
                 <div className="hidden md:block">
@@ -26,19 +26,25 @@ const NavBar = () => {
                       Home
                     </a>
                     <a
-                      href="/about"
+                      href="#about"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     >
                       About
                     </a>
                     <a
-                      href="/Project"
+                      href="#skills"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    >
+                      Skills
+                    </a>
+                    <a
+                      href="#Project"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     >
                       Project
                     </a>
                     <a
-                      href="/contact"
+                      href="#contact"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     >
                       Contact
@@ -88,19 +94,25 @@ const NavBar = () => {
                   Home
                 </a>
                 <a
-                  href="/about"
+                  href="#about"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   About
                 </a>
                 <a
-                  href="/project"
+                  href="#skills"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Skills
+                </a>
+                <a
+                  href="#project"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Project
                 </a>
                 <a
-                  href="/contact"
+                  href="#contact"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Contact

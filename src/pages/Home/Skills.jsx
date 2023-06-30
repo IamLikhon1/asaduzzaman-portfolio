@@ -13,10 +13,10 @@ import { Tilt } from 'react-tilt'
 const Skills = () => {
    
     return (
-        <div className="my-20 mx-5">
-            <h2 className="text-3xl border-l-4 border-orange-400">Skills</h2>
+        <div id='skills' className="my-20 mx-5">
+            <h2 className="text-4xl border-l-4  border-orange-400"><span className='ml-2'>Skills</span></h2>
             {/* images */}
-           <div className='grid grid-cols-2 md:grid-cols-5 gap-8 mx-20 my-10'>
+           <div className='grid grid-cols-2 md:grid-cols-5 gap-8 mx-20 mt-16'>
            <Tilt>
                <div className='tooltip tooltip-warning' data-tip="HTML5">
                <img className='shadow-2xl rounded-full mx-auto w-28 h-28 'src={HtmlImg} alt="" />
