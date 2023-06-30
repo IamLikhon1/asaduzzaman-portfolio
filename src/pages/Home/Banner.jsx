@@ -21,7 +21,7 @@ const Banner = () => {
             <div className="grid md:grid-cols-2 items-center md:mx-10">
                 {/* text */}
                 <div className='md:mt-20'>
-                    <h2 className="text-3xl ">HI🖐 {"I'm"} Md. Asaduzzaman Likhon<br />
+                    <h2 className="text-3xl font-semibold ">HI🖐 {"I'm"} Md. Asaduzzaman Likhon<br /> <br />
                     {"I'm"} a <TypeAnimation
                     className="font-bold ml-3 font-serif text-orange-400"
                     sequence={[
@@ -41,9 +41,10 @@ const Banner = () => {
                       repeat={Infinity}/></h2>
 
                 <button onClick={handleResumeDownload} className=' button btn bg-[#FFA500] hover:bg-[#FFA500] mt-7 text-white'><FaDownload className='text-white'></FaDownload>Download My Resume</button>
-                <div className=" mt-10 grid-flow-col  md:place-self-center md:justify-self-end text-3xl "data-aos="fade-down"
+                <div className=" mt-10  grid-flow-col  md:place-self-center md:justify-self-end text-4xl "data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="2000">
+     data-aos-duration="1500">
+        
     <a className='hover:text-[#1877F2] px-2 duration-500 tooltip tooltip-info' data-tip="Facebook" href="https://www.facebook.com/likhon.adnan.58" target='blank'><FaFacebook></FaFacebook></a>
    <a className='hover:text-[#171515] px-2 duration-500 tooltip'data-tip="Github" href="https://github.com/IamLikhon1" target='blank'> <FaGithub></FaGithub></a>
     <a className='hover:text-[#DD2A7B] px-2 duration-500 tooltip tooltip-secondary'data-tip="Instagram" href="https://www.instagram.com/iamlikhu0098/ tooltip" target='blank'><FaInstagram></FaInstagram></a>

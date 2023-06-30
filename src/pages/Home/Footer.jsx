@@ -5,7 +5,7 @@ const Footer = () => {
             <footer className="footer items-center p-4 bg-neutral text-neutral-content">
   <div className="items-center grid-flow-col">
      
-    <p className='text-lg'>Copyright © 2023 - All right reserved By <span className='font-bold text-white'>Asaduzzaman Likhon</span></p>
+    <p className='text-lg'>Copyright © 2023 - All right reserved By <span className='text-orange-500'>Asaduzzaman Likhon</span></p>
   </div> 
   <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end text-3xl ">
     <a className='hover:text-[#1877F2]  duration-500 tooltip tooltip-info' data-tip="Facebook" href="https://www.facebook.com/likhon.adnan.58" target='blank'><FaFacebook></FaFacebook></a>

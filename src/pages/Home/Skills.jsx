@@ -13,9 +13,9 @@ import { Tilt } from 'react-tilt'
 const Skills = () => {
    
     return (
-        <div id='skills' className="mt-10 md:p-5 mb-20 mx-5"data-aos="fade-down"
+        <div id='skills' className="mt-16 md:p-5 mb-20 mx-5"data-aos="fade-down"
         data-aos-easing="linear"
-        data-aos-duration="1000">
+        data-aos-duration="1500">
             <h2 className="text-4xl border-l-4  border-orange-400"><span className='ml-2'>Skills</span></h2>
             {/* images */}
            <div className='grid grid-cols-2 md:grid-cols-5 gap-8 mx-20 mt-16'>

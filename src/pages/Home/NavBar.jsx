@@ -14,7 +14,7 @@ const NavBar = () => {
               <div className="flex items-center">
                 <div>
                   
-                    <h1 className="text-white text-lg font-semibold w-full">Asaduzzaman <span className="font-medium text-orange-500 uppercase">Likhon</span></h1>
+                    <h1 className="text-white text-lg w-full">Asaduzzaman <span className=" text-orange-500 uppercase">Likhon</span></h1>
                 </div>
                 
                 <div className="hidden md:block">
