@@ -24,3 +24,15 @@ body{
     object-position: bottom center;
     
 }
+
+::-webkit-scrollbar{
+    width: 13px;
+}
+::-webkit-scrollbar-track{
+    background: #daeaff
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(255, 178, 34);
+    border-radius: 10px;
+    
+}
