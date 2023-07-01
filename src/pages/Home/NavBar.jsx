@@ -22,31 +22,31 @@ const NavBar = () => {
                   <div className="ml-10 md:ml-96 flex items-baseline  space-x-4">
                     <a
                       href="/"
-                      className="text-black hover:bg-orange-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                      className="text-black hover:bg-orange-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium duration-500"
                     >
                       Home
                     </a>
                     <a
                       href="#about"
-                      className="text-black hover:bg-orange-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                      className="text-black hover:bg-orange-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium duration-500 "
                     >
                       About
                     </a>
                     <a
                       href="#skills"
-                      className="text-black hover:bg-orange-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                      className="text-black hover:bg-orange-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium duration-500"
                     >
                       Skills
                     </a>
                     <a
                       href="#Project"
-                      className="text-black hover:bg-orange-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                      className="text-black hover:bg-orange-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium duration-500"
                     >
                       Project
                     </a>
                     <a
                       href="#contact"
-                      className="text-black hover:bg-orange-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                      className="text-black hover:bg-orange-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium duration-500"
                     >
                       Contact
                     </a>

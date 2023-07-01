@@ -11,12 +11,14 @@ const Contact = () => {
       .then((result) => {
           console.log(result.text);
           toast.success('Email Send Successfully ')
+          e.target.reset()
           
           
       }, (error) => {
           console.log(error.text);
           toast.error('Something Wrong!')
       });
+      
       
       
   };
