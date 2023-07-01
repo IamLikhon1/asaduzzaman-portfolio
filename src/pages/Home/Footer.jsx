@@ -1,8 +1,8 @@
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
     return (
-        <div className='mt-10'>
-            <footer className="footer items-center p-4 bg-neutral text-neutral-content">
+        <div className='mt-10 '>
+            <footer className="footer items-center p-4  text-neutral-content bg-orange-300">
   <div className="items-center grid-flow-col">
      
     <p className='text-lg'>Copyright © 2023 - All right reserved By <span className='text-orange-500'>Asaduzzaman Likhon</span></p>

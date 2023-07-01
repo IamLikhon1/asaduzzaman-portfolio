@@ -10,7 +10,7 @@ const Contact = () => {
     emailjs.sendForm('service_3qo1qw9', 'template_5iv4esr', form.current, 'iwq7hgBp_3uHz524q')
       .then((result) => {
           console.log(result.text);
-          toast.success('Email Send Successfully')
+          toast.success('Email Send Successfully ')
           
           
       }, (error) => {

@@ -7,7 +7,7 @@ const About = () => {
         <div id="about" className="mt-16 mx-5 md:p-5" data-aos="fade-up"
         data-aos-duration="3000">
             <h2 className="text-4xl border-l-4  border-orange-400 mx-auto"><span className='ml-2'>About</span></h2>
-            <div className="grid md:grid-cols-2 mt-5 md:p-10 rounded-xl bg-orange-300 text-white">
+            <div className="grid md:grid-cols-2 mt-5 md:p-10 rounded-xl bg-orange-200 text-white">
                 <div className="md:mt-20">
                 <Lottie animationData={aboutAnimation} loop={true}></Lottie>
                 </div>
