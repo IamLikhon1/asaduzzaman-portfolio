@@ -23,8 +23,9 @@ const Contact = () => {
       
   };
     return (
-       <div id="contact" className="mx-5 mt-16 md:p-5" data-aos="fade-up"
-       data-aos-duration="2000">
+       <div id="contact" className="mx-5 mt-16 md:p-5" data-aos="fade-down"
+       data-aos-easing="linear"
+       data-aos-duration="1500">
         <h2 className="text-4xl border-l-4  border-orange-400"><span className='ml-2'>Contact Me</span></h2>
          <div className="my-16 grid md:grid-cols-2 items-center gap-16">
             
