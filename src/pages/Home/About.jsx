@@ -8,8 +8,8 @@ const About = () => {
         data-aos-easing="linear"
         data-aos-duration="2000">
             <h2 className="text-4xl border-l-4  border-orange-400 mx-auto"><span className='ml-2'>About</span></h2>
-            <div className="grid md:grid-cols-2 mt-5 md:p-10 rounded-xl bg-orange-300 text-white">
-                <div className="md:mt-20">
+            <div className="grid md:grid-cols-2 mt-5 md:p-10 items-center rounded-xl bg-orange-300 text-white">
+                <div className="">
                 <Lottie animationData={aboutAnimation} loop={true}></Lottie>
                 </div>
                {/* about me */}
