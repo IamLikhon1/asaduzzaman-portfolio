@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Lottie from "lottie-react";
+import loaderAnimation from '../../assets/loaderAnimation.json'
 
 
 const NavBar = () => {
@@ -9,19 +11,20 @@ const NavBar = () => {
   };
   
     return (
-        <nav className="bg-orange-300 p-1  ">
+        <nav className="bg-orange-300 p-1">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
               <div className="flex items-center">
-                <div>
+                <div className="flex items-center">
                   
-                    <h1 className="text-white text-lg w-full">Asaduzzaman <span className=" text-orange-500 uppercase">Likhon</span></h1>
+                    <h1 className="text-white text-lg w-full">Asaduzzaman <span className=" text-orange-600 uppercase">Likhon</span></h1>
+                    <Lottie className="w-20" animationData={loaderAnimation} loop={true}></Lottie>
                 </div>
                 
                 <div className="hidden md:block">
                   <div className="ml-10 md:ml-96 flex items-baseline  space-x-4">
                     <a
-                      href="/"
+                      href="#home"
                       className="text-black hover:bg-orange-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium duration-500"
                     >
                       Home

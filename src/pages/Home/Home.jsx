@@ -1,3 +1,4 @@
+import HomeButton from "../../components/HomeButton";
 import About from "./About";
 import Banner from "./Banner";
 import Contact from "./Contact";
@@ -9,13 +10,16 @@ import Skills from "./Skills";
 const Home = () => {
     return (
         <div className="overflow-x-hidden">
-        <NavBar></NavBar>
+       <div id="home">
+       <NavBar></NavBar>
+       <HomeButton></HomeButton>
         <Banner></Banner>
         <About></About>
         <Skills></Skills>
         <Projects></Projects>
         <Contact></Contact>
         <Footer></Footer>
+       </div>
             
         </div>
     );

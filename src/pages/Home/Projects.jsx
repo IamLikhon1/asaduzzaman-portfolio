@@ -15,7 +15,7 @@ const Projects = () => {
         data-aos-duration="1500">
            <h2 className="text-4xl border-l-4  border-orange-400"><span className='ml-2'>Projects</span></h2>
            {/* card */}
-           <div className="grid ml-8 md:ml-0 md:grid-cols-3 gap-5 mt-20"data-aos="fade-down"
+           <div className="grid ml-9 md:ml-0 md:grid-cols-3 gap-5 mt-20"data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="2000">
 
@@ -23,7 +23,7 @@ const Projects = () => {
            <div className=" card-container card card-compact bg-base-100 shadow-xl">
         <figure><img className='img-container' src={ProjectOne} alt="Shoes" /></figure>
         <div className="card-body">
-            <h2 className="card-title">Foreign Language</h2>
+            <h2 className="card-title">Foreign Language (MERN)</h2>
             <p className='text-xl my-3'>Summer School Camp Website</p>
             <div className='grid grid-cols-3'>
                <button className='mx-1 tooltip mt-4 tooltip-warning'data-tip="Website-Live-Link">
@@ -79,7 +79,7 @@ const Projects = () => {
            <div className=" card-container card card-compact bg-base-100 shadow-xl">
         <figure><img className='img-container' src={ProjectThree} alt="Shoes" /></figure>
         <div className="card-body">
-            <h2 className="card-title">Toy Market</h2>
+            <h2 className="card-title">Toy Market (MERN)</h2>
             <p className='text-xl my-3'>Toy-Cars-World</p>
             <div className='grid grid-cols-3'>
                <button className='mx-1 tooltip-warning mt-4 tooltip'data-tip="Website-Live-Link">
