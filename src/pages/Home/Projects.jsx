@@ -106,7 +106,9 @@ const Projects = () => {
            {/* projectThree */}
 
            {/* projectFour */}
-           <div className=" card-container card card-compact bg-base-100 shadow-xl">
+           <div className=" card-container card card-compact bg-base-100 shadow-xl"data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2000">
         <figure><img className='img-container' src={projectFour} alt="Shoes" /></figure>
         <div className="card-body">
             <h2 className="card-title">Figma To Html</h2>
@@ -132,7 +134,9 @@ const Projects = () => {
            {/* projectFour */}
 
             {/* projectFive */}
-            <div className=" card-container card card-compact bg-base-100 shadow-xl">
+            <div className=" card-container card card-compact bg-base-100 shadow-xl"data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2000">
         <figure><img className='img-container' src={projectSix} alt="Shoes" /></figure>
         <div className="card-body">
             <h2 className="card-title">Job Applied Site(Dynamic)</h2>
@@ -157,8 +161,10 @@ const Projects = () => {
         </div>
            {/* projectFive */}
 
-            {/* projectFive */}
-            <div className=" card-container card card-compact bg-base-100 shadow-xl">
+            {/* projectSix*/}
+            <div className=" card-container card card-compact bg-base-100 shadow-xl"data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2000">
         <figure><img className='img-container' src={projectFive} alt="Shoes" /></figure>
         <div className="card-body">
             <h2 className="card-title">PSD To Html(Wedding Event)</h2>
@@ -181,7 +187,7 @@ const Projects = () => {
             
         </div>
         </div>
-           {/* projectFive */}
+           {/* projectSix */}
                 
             </div>
            {/* card */}
