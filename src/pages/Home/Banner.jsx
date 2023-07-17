@@ -40,10 +40,12 @@ const Banner = () => {
                       style={{ fontSize: '1em' }}
                       repeat={Infinity}/></h2>
 
-                <button onClick={handleResumeDownload} className=' button btn bg-[#FFA500] hover:bg-[#FFA500] mt-7 text-white'><FaDownload className='text-white'></FaDownload>Download My Resume</button>
+                <button onClick={handleResumeDownload} className=' button btn bg-[#FFA500] hover:bg-[#FFA500] mt-7 text-white'data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"><FaDownload className='text-white'></FaDownload>Download My Resume</button>
                 <div className=" mt-10  grid-flow-col  md:place-self-center md:justify-self-end text-4xl "data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1500">
+     data-aos-duration="2000">
         
     <a className='hover:text-[#1877F2] px-2 duration-500 tooltip tooltip-info' data-tip="Facebook" href="https://www.facebook.com/likhon.adnan.58" target='blank'><FaFacebook></FaFacebook></a>
    <a className='hover:text-[#171515] px-2 duration-500 tooltip'data-tip="Github" href="https://github.com/IamLikhon1" target='blank'> <FaGithub></FaGithub></a>

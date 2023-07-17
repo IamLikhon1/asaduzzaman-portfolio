@@ -41,17 +41,27 @@ const Skills = () => {
                 <Tilt><div className='tooltip tooltip-warning' data-tip="React Js">
                 <img className='w-20 h-20 shadow-2xl rounded-full ' src={reactImg} alt="" />
                 </div></Tilt>
-               <Tilt><div className='tooltip tooltip-warning' data-tip="JavaScript">
+               <Tilt><div className='tooltip tooltip-warning' data-tip="JavaScript"data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2000">
                <img className='w-20 h-20 shadow-2xl rounded-full ' src={JavaScriptImg} alt="" />
                </div></Tilt>
-              <Tilt> <div className='tooltip tooltip-warning'data-tip="MongoDB">
+              <Tilt> <div className='tooltip tooltip-warning'data-tip="MongoDB"data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2000">
                <img className='w-20 h-20 shadow-2xl rounded-full ' src={mongodbImg} alt="" />
                </div></Tilt>
-               <Tilt><div className=' tooltip tooltip-warning'data-tip="Firebase">
+               <Tilt><div className=' tooltip tooltip-warning'data-tip="Firebase"data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2000">
                <img className='w-20 h-20 shadow-2xl rounded-full ' src={FirebaseImg} alt="" />
                </div></Tilt>
-              <Tilt> <div className='tooltip tooltip-warning ' data-tip="Express Js"> <img className='w-20 h-20 shadow-2xl rounded-full ' src={ExpressIg} alt="" /></div></Tilt>
-                <Tilt><div className='tooltip tooltip-warning' data-tip="Node Js">
+              <Tilt> <div className='tooltip tooltip-warning ' data-tip="Express Js"data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2000"> <img className='w-20 h-20 shadow-2xl rounded-full ' src={ExpressIg} alt="" /></div></Tilt>
+                <Tilt><div className='tooltip tooltip-warning' data-tip="Node Js"data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2000">
                 <img className='w-20 h-20 shadow-2xl rounded-full ' src={nodejs} alt="" />
 
                 </div></Tilt>
