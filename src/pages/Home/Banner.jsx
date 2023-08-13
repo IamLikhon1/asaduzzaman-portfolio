@@ -40,7 +40,7 @@ const Banner = () => {
                       style={{ fontSize: '1em' }}
                       repeat={Infinity}/></h2>
 
-                <button onClick={handleResumeDownload} className=' button btn bg-[#FFA500] hover:bg-[#FFA500] mt-7 text-white'data-aos="fade-down"
+                <button onClick={handleResumeDownload} className=' button btn bg-[#FFA500] hover:bg-[#FFA500] mt-7 text-white rounded-xl'data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500"><FaDownload className='text-white'></FaDownload>Download My Resume</button>
                 <div className=" mt-10  grid-flow-col  md:place-self-center md:justify-self-end text-4xl "data-aos="fade-down"
