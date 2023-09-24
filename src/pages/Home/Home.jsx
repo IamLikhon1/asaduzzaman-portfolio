@@ -1,4 +1,4 @@
-// import HomeButton from "../../components/HomeButton";
+import HomeButton from "../../components/HomeButton";
 import About from "./About";
 import Banner from "./Banner";
 import Contact from "./Contact";
@@ -12,7 +12,7 @@ const Home = () => {
         <div className="overflow-x-hidden">
        <div id="home">
        <NavBar></NavBar>
-       {/* <HomeButton></HomeButton> */}
+       <HomeButton></HomeButton>
         <Banner></Banner>
         <About></About>
         <Skills></Skills>

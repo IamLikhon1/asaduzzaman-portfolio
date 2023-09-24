@@ -1,13 +1,15 @@
-import { FaArrowUp} from 'react-icons/fa';
+import { FaArrowUp } from 'react-icons/fa';
 
 const HomeButton = () => {
     return (
-        <div className=" hidden md:fixed z-30 md:inline-block md:mt-96 md:ml-96"data-aos="fade-left"
-        data-aos-easing="linear"
-        data-aos-duration="2000">
-           <a className="ml-96" href="#home"> <button className="btn rounded-xl bg-[#ffcf77] hover:bg-[#fabe4e] ml-48 mt-16"><FaArrowUp className='text-xl text-white'></FaArrowUp></button></a>
-            
+       <div className='flex justify-end'>
+         <div className="hidden md:fixed z-30 md:inline-block" data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="2000">
+            <a href="#home"> <button className="btn rounded-xl bg-[#ffcf77] hover:bg-[#fabe4e] mt-96"><FaArrowUp className='text-xl text-white'></FaArrowUp></button></a>
+
         </div>
+       </div>
     );
 };
 
