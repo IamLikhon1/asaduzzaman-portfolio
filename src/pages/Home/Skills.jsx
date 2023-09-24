@@ -18,7 +18,7 @@ const Skills = () => {
             data-aos-duration="1500">
             <h2 className="text-4xl border-l-4  border-orange-400"><span className='ml-2'>Skills</span></h2>
             {/* images */}
-            <div className='grid grid-cols-2 md:grid-cols-5 gap-10 mx-20 mt-16 cursor-pointer'>
+            <div className='grid md:grid-cols-5 gap-10 mx-20 mt-16 cursor-pointer'>
                 <Tilt>
                     <div className='tooltip tooltip-warning w-32 h-32 shadow-2xl rounded-xl bg-white' data-tip="HTML5">
                         <img className='mx-auto w-full h-full' src={HtmlImg} alt="" />

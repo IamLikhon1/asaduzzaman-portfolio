@@ -22,7 +22,7 @@ const NavBar = () => {
             </div>
 
             <div className="hidden md:block ml-96">
-              <div className="space-x-16 ml-96">
+              <div className="space-x-8 ml-96">
                 <a
                   href="#home"
                   className="text-black  hover:text-white px-3 py-2 rounded-md text-lg font-medium duration-500"
