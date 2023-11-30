@@ -6,21 +6,36 @@ import projectSix from '../../../public/projectSeven.png'
 import projectFive from '../../../public/projectFive.png'
 
 import { FiExternalLink, FiGithub } from "react-icons/fi";
+import { useEffect, useState } from 'react'
 
 
 const Projects = () => {
+    const [allData, setAllData]=useState([]);
+
+    const fullStackProjects= allData.filter(item=>item.category=='FullStack');
+    const frontendProjects= allData.filter(item=>item.category=='Frontend');
+    const teamProjects= allData.filter(item=>item.category=='Team');
+    const figmaToHtml= allData.filter(item=>item.category=='Figma');
+    // console.log(teamProjects);
+
+    useEffect(()=>{
+        fetch('project.json')
+        .then(res=>res.json())
+        .then(data=>setAllData(data))
+    },[])
     return (
         <div id="Project" className="mx-10 md:p-5" data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1500">
             <h2 className="text-4xl border-l-4  border-orange-400"><span className='ml-2'>Projects</span></h2>
             {/* card */}
-            <div className="grid md:grid-cols-4 gap-5 mt-10" data-aos="fade-down"
+            <div className="grid md:grid-cols-3 gap-5 mt-10" data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="2000">
 
+
                 {/* projectOne */}
-                <div className=" card-container card card-compact  bg-base-100 shadow-xl" data-aos="fade-down"
+                <div className="card-container card card-compact  bg-base-100 shadow-xl" data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="">
                     <figure><img className='img-container' src={projectSix} alt="Shoes" /></figure>
