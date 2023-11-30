@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "img":"./collegeImg.png",
+        "img":"https://i.ibb.co/10060rc/college-Img.png",
         "title":"College Booking Facilities (MERN)",
         "sunTitle":"Collegiate Nexus",
         "liveLink":"https://collegiate-nexus.web.app/",
@@ -11,7 +11,7 @@
     },
     {
         "id":2,
-        "img":"./language.png",
+        "img":"https://i.ibb.co/cNPqd9s/language.pngg",
         "title":"Foreign Language (MERN)",
         "sunTitle":"Summer School Camp Website",
         "liveLink":"https://fashion-summer.web.app/",
@@ -21,7 +21,7 @@
     },
     {
         "id":3,
-        "img":"./parlour.png",
+        "img":"https://i.ibb.co/9cGXn2V/parlour.png",
         "title":"Parlour Website",
         "sunTitle":"Simple Parlour(Authentication)",
         "liveLink":"https://simple-parlour-84df8.web.app/",
@@ -30,7 +30,7 @@
     },
     {
         "id":4,
-        "img":"./ToyCar.png",
+        "img":"https://i.ibb.co/27qVYBT/ToyCar.png",
         "title":"Toy Market (MERN)",
         "sunTitle":"Toy Cars World",
         "liveLink":"https://toys-car.web.app/",
@@ -40,7 +40,7 @@
     },
     {
         "id":5,
-        "img":"./Tea.png",
+        "img":"https://i.ibb.co/tYR3Yp2/Tea.png",
         "title":"Figma To Html",
         "sunTitle":"The Tea House",
         "liveLink":"https://iamlikhon1.github.io/tea-house-bs/",
@@ -49,7 +49,7 @@
     },
     {
         "id":6,
-        "img":"./convention.png",
+        "img":"https://i.ibb.co/BLL7gQy/convention.png",
         "title":"Figma To Html",
         "sunTitle":"Abacus Convention Center",
         "liveLink":"https://iamlikhon1.github.io/convention-center/",
@@ -58,7 +58,7 @@
     },
     {
         "id":7,
-        "img":"./fruites.png",
+        "img":"https://i.ibb.co/pR4390d/fruites.png",
         "title":"Fruits World",
         "sunTitle":"Food Network",
         "liveLink":"https://fruits-network.web.app/1",
@@ -68,7 +68,7 @@
 
     {
         "id":8,
-        "img":"./jobLinker.png",
+        "img":"https://i.ibb.co/52Psr00/job-Linker.png",
         "title":"Job Recruiting Website",
         "sunTitle":"Job Linker",
         "liveLink":"https://job-linker-seven.vercel.app/",
@@ -77,7 +77,7 @@
     },
     {
         "id":9,
-        "img":"./searchJob.png",
+        "img":"https://i.ibb.co/4jpQ68b/search-Job.png",
         "title":"Search Dream Job",
         "sunTitle":"Work Jet",
         "liveLink":"https://meek-starburst-bd6984.netlify.app/",
@@ -86,7 +86,7 @@
     },
     {
         "id":10,
-        "img":"./bistro.png",
+        "img":"https://i.ibb.co/4jGR225/bistro.png",
         "title":"Restaurant World ",
         "sunTitle":"Bistro Boss Restaurant",
         "liveLink":"https://bistro-boss-e3a07.web.app/",
@@ -96,7 +96,7 @@
     },
     {
         "id":11,
-        "img":"./legal.png",
+        "img":"https://i.ibb.co/VgGNw9L/legal.png",
         "title":"Figma To Html",
         "sunTitle":"Justice Site",
         "liveLink":"https://rainbow-pika-b70f89.netlify.app/",

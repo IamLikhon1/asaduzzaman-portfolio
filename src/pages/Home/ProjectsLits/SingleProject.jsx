@@ -4,7 +4,7 @@ const SingleProject = ({ data }) => {
     const { img, title, sunTitle, liveLink, client, server} = data;
     return (
         <div>
-            <div className="card-container card card-compact bg-base-200  cursor-pointer shadow-md hover:shadow-lg duration-500 my-5 md:my-0 w-fit">
+            <div className="card-container card card-compact bg-base-200  cursor-pointer shadow-md hover:shadow-lg duration-500 my-3 md:my-0 w-fit">
                 <figure><img className='img-container' src={img} alt="Shoes" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{title}</h2>
