@@ -1,9 +1,7 @@
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
     return (
-        <div className='mt-10 'data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="2000">
+        <div className='mt-10 '>
             <footer className="footer items-center p-4  text-neutral-content bg-orange-300">
   <div className="items-center grid-flow-col">
      

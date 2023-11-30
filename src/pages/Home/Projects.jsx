@@ -44,7 +44,7 @@ const Projects = () => {
 
                 {/* All Project */}
                 <TabPanel>
-                   <div className='grid md:grid-cols-4 md:gap-10  my-5 md:my-0'>
+                   <div className='grid md:grid-cols-3 md:gap-10  my-5 md:my-0'>
                    {
                         allData.map(data => <SingleProject
                             key={data.id}
