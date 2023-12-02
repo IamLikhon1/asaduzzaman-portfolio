@@ -24,21 +24,21 @@ const Projects = () => {
 
             <Tabs>
 
-                <TabList className="mt-5 mb-12 md:my-12 md:mb-20 md:flex justify-center gap-10 ">
+                <TabList className="mt-5 mb-12 md:my-12 md:mb-20 md:flex justify-center gap-10 md:shadow-md md:py-3 bg-slate-50 rounded-md ">
                     {/* All Tab */}
-                    <Tab className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md shadow-lg font-medium flex items-center justify-between hover:text-orange-500 focus:text-orange-600 focus:border-orange-500">ALL Project <span className='px-3 py-2 bg-orange-400 text-white rounded-full ml-5 font-semibold text-sm'>{allData.length} </span></Tab>
+                    <Tab className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md  font-medium hover:text-orange-500 focus:text-orange-600 focus:border-orange-500 hover:shadow-lg">ALL Project</Tab>
                     {/* Full-Stack Tab */}
-                    <Tab className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md shadow-lg font-medium  flex items-center justify-between hover:text-orange-500 focus:text-orange-600 focus:border-orange-500">Full Stack Project <span className='px-4 py-2 bg-orange-400 text-white rounded-full ml-5 font-semibold text-sm'>{fullStackProjects.length} </span>
+                    <Tab className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md  font-medium hover:text-orange-500 focus:text-orange-600 focus:border-orange-500  hover:shadow-lg">Full Stack Project 
                     </Tab>
                     {/* Front-End Tab */}
-                    <Tab className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md shadow-lg font-medium  flex items-center justify-between hover:text-orange-500 focus:text-orange-600 focus:border-orange-500">Front-End Project <span className='px-4 py-2 bg-orange-400 text-white rounded-full ml-5 font-semibold text-sm'>{frontendProjects.length} </span>
+                    <Tab className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md font-medium   hover:text-orange-500 focus:text-orange-600 focus:border-orange-500  hover:shadow-lg">Front-End Project 
                     </Tab>
 
                     {/* Figma to Html Tab */}
-                    <Tab className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md shadow-lg font-medium  flex items-center justify-between hover:text-orange-500 focus:text-orange-600 focus:border-orange-500">Figma to HTML Project <span className='px-4 py-2 bg-orange-400 text-white rounded-full ml-5 font-semibold text-sm'>{figmaToHtml.length} </span>
+                    <Tab className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md font-medium  hover:text-orange-500 focus:text-orange-600 focus:border-orange-500  hover:shadow-lg">Figma to HTML Project 
                     </Tab>
                     {/* Team Tab */}
-                    <Tab className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md shadow-lg font-medium  flex items-center justify-between hover:text-orange-500 focus:text-orange-600 focus:border-orange-500">Team Work Project <span className='px-4 py-2 bg-orange-400 text-white rounded-full ml-5 font-semibold text-sm'>{teamProjects.length} </span>
+                    <Tab className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md  font-medium  hover:text-orange-500 focus:text-orange-600 focus:border-orange-500  hover:shadow-lg">Team Work Project 
                     </Tab>
                 </TabList>
 

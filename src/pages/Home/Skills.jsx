@@ -1,73 +1,56 @@
-import CSSimg from '../../../public/css.png'
-import ExpressIg from '../../../public/express-logo.png'
-import FirebaseImg from '../../../public/firebase.png'
-import HtmlImg from '../../../public/html.png'
-import BootstrapImg from '../../../public/imgbootstrap.png'
-import JavaScriptImg from '../../../public/JavaScript-Logo.jpg'
-import mongodbImg from '../../../public/mongodb.jpg'
-import nodejs from '../../../public/nodejs.png'
-import reactImg from '../../../public/react.png'
-import tailwindImg from '../../../public/tailwind.png'
-import { Tilt } from 'react-tilt'
-
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
+import Expertise from './skillCategory/Expertise';
+import Comfortable from './skillCategory/Comfortable';
+import Familiar from './skillCategory/Familiar';
+import Tools from './skillCategory/Tools';
 const Skills = () => {
-
     return (
-        <div id='skills' className="mt-16 md:p-5 mb-20 mx-5" data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500">
+        <div id='skills' className="mt-16 md:p-5 mb-20 mx-5 ">
             <h2 className="text-4xl border-l-4  border-orange-400"><span className='ml-2'>Skills</span></h2>
-            {/* images */}
-            <div className='grid md:grid-cols-5 gap-10 mx-20 mt-16 cursor-pointer'>
-                <Tilt>
-                    <div className='tooltip tooltip-warning w-32 h-32 shadow-2xl rounded-xl bg-white' data-tip="HTML5">
-                        <img className='mx-auto w-full h-full' src={HtmlImg} alt="" />
-                    </div>
-                </Tilt>
 
-                <Tilt>
-                    <div className='tooltip tooltip-warning w-32 h-32 shadow-2xl rounded-xl bg-white' data-tip="CSS3"> <img className='mx-auto w-full h-full' src={CSSimg} alt="" /></div>
-                </Tilt>
-                <Tilt>
-                    <div className='tooltip tooltip-warning  w-32 h-32 shadow-2xl rounded-xl bg-gray-50' data-tip="Tailwind">
+            <div className='max-w-7xl mx-auto'>
+                <Tabs>
 
-                        <img className='mx-auto w-full h-full' src={tailwindImg} alt="" />
+                    <TabList className="mt-5 mb-12 md:my-12 md:mb-20 md:flex justify-center gap-10 md:shadow-md md:py-3 bg-slate-50 rounded-md ">
+                        {/* Expertise Tab */}
+                        <Tab className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md  font-medium hover:text-orange-500 focus:text-orange-600 focus:border-orange-500 hover:shadow-lg">Expertise</Tab>
 
-                    </div>
-                </Tilt>
-                <Tilt> <div className='tooltip tooltip-warning  w-32 h-32 shadow-2xl rounded-xl bg-gray-50' data-tip="Bootstrap">
-                    <img className='mx-auto w-full h-full' src={BootstrapImg} alt="" />
-                </div></Tilt>
-                <Tilt><div className='tooltip tooltip-warning w-32 h-32 shadow-2xl rounded-xl bg-gray-50' data-tip="React Js">
-                    <img className='mx-auto w-full h-full' src={reactImg} alt="" />
-                </div></Tilt>
-                <Tilt><div className='tooltip tooltip-warning w-32 h-32 shadow-2xl rounded-xl bg-gray-50' data-tip="JavaScript" data-aos="fade-down"
-                    data-aos-easing="linear"
-                    data-aos-duration="2000">
-                    <img className='mx-auto w-full h-full' src={JavaScriptImg} alt="" />
-                </div></Tilt>
-                <Tilt> <div className='tooltip tooltip-warning w-32 h-32 shadow-2xl rounded-xl bg-gray-50' data-tip="MongoDB" data-aos="fade-down"
-                    data-aos-easing="linear"
-                    data-aos-duration="2000">
-                    <img className='mx-auto w-full h-full' src={mongodbImg} alt="" />
-                </div></Tilt>
-                <Tilt><div className=' tooltip tooltip-warning w-32 h-32 shadow-2xl rounded-xl bg-gray-50' data-tip="Firebase" data-aos="fade-down"
-                    data-aos-easing="linear"
-                    data-aos-duration="2000">
-                    <img className='mx-auto w-full h-full' src={FirebaseImg} alt="" />
-                </div></Tilt>
-                <Tilt> <div className='tooltip tooltip-warning w-32 h-32 shadow-2xl rounded-xl bg-gray-50 ' data-tip="Express Js" data-aos="fade-down"
-                    data-aos-easing="linear"
-                    data-aos-duration="2000"> <img className='mx-auto w-full h-full' src={ExpressIg} alt="" /></div></Tilt>
-                <Tilt><div className='tooltip tooltip-warning w-32 h-32 shadow-2xl rounded-xl bg-gray-50' data-tip="Node Js" data-aos="fade-down"
-                    data-aos-easing="linear"
-                    data-aos-duration="2000">
-                    <img className='mx-auto w-full h-full' src={nodejs} alt="" />
+                        {/* Comfortable Tab */}
+                        <Tab className="text-xl cursor-pointer px-10 py-5    my-2 md:my-0 text-center duration-500 border-2 rounded-md  font-medium hover:text-orange-500 focus:text-orange-600 focus:border-orange-500  hover:shadow-lg">Comfortable
+                        </Tab>
 
-                </div></Tilt>
+                        {/* Familiar Tab */}
+                        <Tab className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md font-medium   hover:text-orange-500 focus:text-orange-600 focus:border-orange-500  hover:shadow-lg">Familiar
+                        </Tab>
 
+                        {/* Tools Tab */}
+                        <Tab className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md font-medium  hover:text-orange-500 focus:text-orange-600 focus:border-orange-500  hover:shadow-lg">Tools
+                        </Tab>
+
+                    </TabList>
+
+                    {/* Expertise */}
+                    <TabPanel>
+                        <Expertise/>
+                    </TabPanel>
+
+                    {/* comfortable */}
+                    <TabPanel>
+                       <Comfortable/>
+                    </TabPanel>
+
+                    {/* Familiar */}
+                    <TabPanel>
+                       <Familiar/>
+                    </TabPanel>
+
+                    {/* Tools */}
+                    <TabPanel>
+                        <Tools/>
+                    </TabPanel>
+                </Tabs>
             </div>
-            {/* images */}
 
         </div>
     );
