@@ -5,9 +5,7 @@
 html{
     scroll-behavior: smooth;
 }
-body{
-    font-family: 'Oswald', sans-serif;
-}
+
 .card-container{
     height: 340px;
     overflow: hidden;   
