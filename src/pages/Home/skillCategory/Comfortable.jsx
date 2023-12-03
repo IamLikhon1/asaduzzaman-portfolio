@@ -1,7 +1,7 @@
 
 const Comfortable = () => {
     return (
-        <div className='grid grid-cols-3 md:grid-cols-5 gap-3 md:gap-5 text-center'>
+        <div className='grid grid-cols-3 md:grid-cols-5 gap-3 md:gap-5 text-center'data-aos="zoom-in" data-aos-duration="1000">
 
         {/* JS */}
         <div className='border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-xl py-2 md:py-6 '>

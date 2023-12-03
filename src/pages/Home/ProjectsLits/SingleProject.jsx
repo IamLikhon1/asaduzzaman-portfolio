@@ -3,7 +3,7 @@ import { FiExternalLink, FiGithub } from "react-icons/fi";
 const SingleProject = ({ data }) => {
     const { img, title, sunTitle, liveLink, client, server} = data;
     return (
-        <div>
+        <div data-aos="zoom-in" data-aos-duration="1000">
             <div className="card-container card card-compact bg-base-200  cursor-pointer shadow-md hover:shadow-lg duration-500 my-3 md:my-0 w-fit">
                 <figure><img className='img-container' src={img} alt="Shoes" /></figure>
                 <div className="card-body">
