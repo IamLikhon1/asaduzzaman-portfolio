@@ -2,10 +2,12 @@ import { useEffect, useState } from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import SingleProject from './ProjectsLits/SingleProject';
+import TopLoaderAnimation from '../../components/TopLoader/TopLoaderAnimation';
 
 
 const Projects = () => {
     const [allData, setAllData] = useState([]);
+    const [progress, setProgress] = useState(0)
 
     const fullStackProjects = allData.filter(item => item.category == 'FullStack');
     const frontendProjects = allData.filter(item => item.category == 'Frontend');
@@ -20,25 +22,26 @@ const Projects = () => {
     }, [])
     return (
         <div id="Project" className="mx-10 md:p-5">
+             <TopLoaderAnimation progress={progress} setProgress={setProgress}/>
             <h2 className="text-4xl border-l-4  border-orange-400"><span className='ml-2'>Projects</span></h2>
 
             <Tabs>
 
-                <TabList className="mt-5 mb-12 md:my-12 md:mb-20 md:flex justify-center gap-10 md:shadow-md md:py-3 bg-slate-50 rounded-md ">
+                <TabList   className="mt-5 mb-12 md:my-12 md:mb-20 md:flex justify-center gap-10 md:shadow-md md:py-3 bg-slate-50 rounded-md ">
                     {/* All Tab */}
-                    <Tab className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md  font-medium hover:text-orange-500 focus:text-orange-600 focus:border-orange-500 hover:shadow-lg">ALL Project</Tab>
+                    <Tab onClick={() => setProgress(100)} className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md  font-medium hover:text-orange-500 focus:text-orange-600 focus:border-orange-500 hover:shadow-lg">ALL Project</Tab>
                     {/* Full-Stack Tab */}
-                    <Tab className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md  font-medium hover:text-orange-500 focus:text-orange-600 focus:border-orange-500  hover:shadow-lg">Full Stack Project 
+                    <Tab onClick={() => setProgress(100)} className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md  font-medium hover:text-orange-500 focus:text-orange-600 focus:border-orange-500  hover:shadow-lg">Full Stack Project 
                     </Tab>
                     {/* Front-End Tab */}
-                    <Tab className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md font-medium   hover:text-orange-500 focus:text-orange-600 focus:border-orange-500  hover:shadow-lg">Front-End Project 
+                    <Tab onClick={() => setProgress(100)} className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md font-medium   hover:text-orange-500 focus:text-orange-600 focus:border-orange-500  hover:shadow-lg">Front-End Project 
                     </Tab>
 
                     {/* Figma to Html Tab */}
-                    <Tab className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md font-medium  hover:text-orange-500 focus:text-orange-600 focus:border-orange-500  hover:shadow-lg">Figma to HTML Project 
+                    <Tab onClick={() => setProgress(100)} className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md font-medium  hover:text-orange-500 focus:text-orange-600 focus:border-orange-500  hover:shadow-lg">Figma to HTML Project 
                     </Tab>
                     {/* Team Tab */}
-                    <Tab className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md  font-medium  hover:text-orange-500 focus:text-orange-600 focus:border-orange-500  hover:shadow-lg">Team Work Project 
+                    <Tab onClick={() => setProgress(100)} className="text-xl cursor-pointer px-10 py-5  my-2 md:my-0 text-center duration-500 border-2 rounded-md  font-medium  hover:text-orange-500 focus:text-orange-600 focus:border-orange-500  hover:shadow-lg">Team Work Project 
                     </Tab>
                 </TabList>
 

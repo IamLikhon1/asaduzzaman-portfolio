@@ -1,10 +1,12 @@
 import { useState } from "react";
 import Lottie from "lottie-react";
 import loaderAnimation from '../../assets/loaderAnimation.json'
+import TopLoaderAnimation from "../../components/TopLoader/TopLoaderAnimation";
 
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [progress, setProgress] = useState(0)
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
@@ -12,6 +14,7 @@ const NavBar = () => {
 
   return (
     <nav className="bg-orange-300 p-1">
+      <TopLoaderAnimation progress={progress}setProgress={setProgress}/>
       <div className="mx-auto sm:pl-6 lg:pl-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -22,32 +25,37 @@ const NavBar = () => {
             </div>
 
             <div className="hidden md:block ml-96">
-              <div className="space-x-8 ml-96">
+              <div  className="space-x-8 ml-96">
                 <a
+                onClick={() => setProgress(100)}
                   href="#home"
                   className="text-black  hover:text-white px-3 py-2 rounded-md text-lg font-medium duration-500"
                 >
                   Home
                 </a>
                 <a
+                onClick={() => setProgress(100)}
                   href="#about"
                   className="text-black  hover:text-white px-3 py-2 rounded-md text-lg font-medium duration-500 "
                 >
                   About
                 </a>
                 <a
+                onClick={() => setProgress(100)}
                   href="#skills"
                   className="text-black  hover:text-white px-3 py-2 rounded-md text-lg font-medium duration-500"
                 >
                   Skills
                 </a>
                 <a
+                onClick={() => setProgress(100)}
                   href="#Project"
                   className="text-black  hover:text-white px-3 py-2 rounded-md text-lg font-medium duration-500"
                 >
                   Project
                 </a>
                 <a
+                onClick={() => setProgress(100)}
                   href="#contact"
                   className="text-black  hover:text-white px-3 py-2 rounded-md text-lg font-medium duration-500"
                 >
