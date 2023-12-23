@@ -4,9 +4,9 @@ const TopLoaderAnimation = ({progress,setProgress}) => {
     
     return (
         <LoadingBar
-        color='#f11946'
+        color='#FFA500'
         progress={progress}
-        height={3}
+        height={4}
         onLoaderFinished={() => setProgress(0)}
       />
     );
