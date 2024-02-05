@@ -10,6 +10,15 @@
         "category":"FullStack"
     },
     {
+        "id":101,
+        "img":"https://i.ibb.co/KsPY6v0/maac-task-2024-web-app.png",
+        "title":"FieldX",
+        "sunTitle":"Find Your Best Field Website",
+        "liveLink":"https://maac-task-2024.web.app/",
+        "client":"https://github.com/IamLikhon1/maac-task",
+        "category":"Frontend"
+    },
+    {
         "id":2,
         "img":"https://i.ibb.co/cNPqd9s/language.pngg",
         "title":"Foreign Language",
